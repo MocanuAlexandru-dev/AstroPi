@@ -59,7 +59,7 @@ Checks if the time for the experiment is up @return: Boolean
 
 <dl class="method">
 
-<dt id="main.Astro_Pi.get_coordinates_ISS">`get_coordinates_ISS`<span class="sig-paren">(</span><span class="sig-paren">)</span>[¶](#main.Astro_Pi.get_coordinates_ISS "Permalink to this definition")</dt>
+<dt id="main.Astro_Pi.get_coordinates_ISS">`get_coordinates_ISS`<span class="sig-paren">(</span><span class="sig-paren">)</span>(#main.Astro_Pi.get_coordinates_ISS "Permalink to this definition")</dt>
 
 <dd>
 
@@ -71,7 +71,7 @@ Get’s current ISS coordinates @return: dict
 
 <dl class="method">
 
-<dt id="main.Astro_Pi.setup_logger">`setup_logger`<span class="sig-paren">(</span>_dir_path_, _name_<span class="sig-paren">)</span>[¶](#main.Astro_Pi.setup_logger "Permalink to this definition")</dt>
+<dt id="main.Astro_Pi.setup_logger">`setup_logger`<span class="sig-paren">(</span>_dir_path_, _name_<span class="sig-paren">)</span>(#main.Astro_Pi.setup_logger "Permalink to this definition")</dt>
 
 <dd>
 
@@ -83,7 +83,7 @@ Tries to create csv logger object
 
 <dl class="method">
 
-<dt id="main.Astro_Pi.show_country">`show_country`<span class="sig-paren">(</span><span class="sig-paren">)</span>[¶](#main.Astro_Pi.show_country "Permalink to this definition")</dt>
+<dt id="main.Astro_Pi.show_country">`show_country`<span class="sig-paren">(</span><span class="sig-paren">)</span>(#main.Astro_Pi.show_country "Permalink to this definition")</dt>
 
 <dd>
 
@@ -95,7 +95,7 @@ Gets the country that is below ISS @return: dict
 
 <dl class="method">
 
-<dt id="main.Astro_Pi.show_country_countinously">`show_country_countinously`<span class="sig-paren">(</span><span class="sig-paren">)</span>[¶](#main.Astro_Pi.show_country_countinously "Permalink to this definition")</dt>
+<dt id="main.Astro_Pi.show_country_countinously">`show_country_countinously`<span class="sig-paren">(</span><span class="sig-paren">)</span>(#main.Astro_Pi.show_country_countinously "Permalink to this definition")</dt>
 
 <dd>
 
@@ -107,7 +107,7 @@ Updates the country flags on the SenseHat LED Matrix (every 5s)
 
 <dl class="method">
 
-<dt id="main.Astro_Pi.write_data_continuously">`write_data_continuously`<span class="sig-paren">(</span>_files_<span class="sig-paren">)</span>[¶](#main.Astro_Pi.write_data_continuously "Permalink to this definition")</dt>
+<dt id="main.Astro_Pi.write_data_continuously">`write_data_continuously`<span class="sig-paren">(</span>_files_<span class="sig-paren">)</span>(#main.Astro_Pi.write_data_continuously "Permalink to this definition")</dt>
 
 <dd>
 
@@ -119,7 +119,7 @@ Writes humidity, temperature and pressure for the current time (every 60s) @retu
 
 <dl class="method">
 
-<dt id="main.Astro_Pi.write_data_csv">`write_data_csv`<span class="sig-paren">(</span>_file_<span class="sig-paren">)</span>[¶](#main.Astro_Pi.write_data_csv "Permalink to this definition")</dt>
+<dt id="main.Astro_Pi.write_data_csv">`write_data_csv`<span class="sig-paren">(</span>_file_<span class="sig-paren">)</span>(#main.Astro_Pi.write_data_csv "Permalink to this definition")</dt>
 
 <dd>
 
@@ -131,7 +131,7 @@ Writes current data to the csv file
 
 <dl class="method">
 
-<dt id="main.Astro_Pi.write_force_csv">`write_force_csv`<span class="sig-paren">(</span>_file_<span class="sig-paren">)</span>[¶](#main.Astro_Pi.write_force_csv "Permalink to this definition")</dt>
+<dt id="main.Astro_Pi.write_force_csv">`write_force_csv`<span class="sig-paren">(</span>_file_<span class="sig-paren">)</span>(#main.Astro_Pi.write_force_csv "Permalink to this definition")</dt>
 
 <dd>
 
