@@ -1,0 +1,179 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>AstroPi docs &#8212; AstroPi 12.02.2020 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Welcome to AstroPi’s documentation!" href="index.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="astropi-docs">
+<h1>AstroPi docs<a class="headerlink" href="#astropi-docs" title="Permalink to this headline">¶</a></h1>
+<span class="target" id="module-main"></span><dl class="class">
+<dt id="main.Astro_Pi">
+<em class="property">class </em><code class="sig-prename descclassname">main.</code><code class="sig-name descname">Astro_Pi</code><span class="sig-paren">(</span><em class="sig-param">running_time</em><span class="sig-paren">)</span><a class="headerlink" href="#main.Astro_Pi" title="Permalink to this definition">¶</a></dt>
+<dd><p>Class for every function used in experiment (a way to order the code)</p>
+<dl class="method">
+<dt id="main.Astro_Pi.calculate_force">
+<code class="sig-name descname">calculate_force</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#main.Astro_Pi.calculate_force" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calculating force and speed for the ISS
+&#64;return: dict</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="main.Astro_Pi.check_sleep">
+<code class="sig-name descname">check_sleep</code><span class="sig-paren">(</span><em class="sig-param">timedelta_seconds</em><span class="sig-paren">)</span><a class="headerlink" href="#main.Astro_Pi.check_sleep" title="Permalink to this definition">¶</a></dt>
+<dd><p>Checks if can sleep or if the current_time + sleep_time exceeds project time
+&#64;param1: int
+&#64;return: Boolean</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="main.Astro_Pi.check_time">
+<code class="sig-name descname">check_time</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#main.Astro_Pi.check_time" title="Permalink to this definition">¶</a></dt>
+<dd><p>Checks if the time for the experiment is up
+&#64;return: Boolean</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="main.Astro_Pi.get_coordinates_ISS">
+<code class="sig-name descname">get_coordinates_ISS</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#main.Astro_Pi.get_coordinates_ISS" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get’s current ISS coordinates
+&#64;return: dict</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="main.Astro_Pi.setup_logger">
+<code class="sig-name descname">setup_logger</code><span class="sig-paren">(</span><em class="sig-param">dir_path</em>, <em class="sig-param">name</em><span class="sig-paren">)</span><a class="headerlink" href="#main.Astro_Pi.setup_logger" title="Permalink to this definition">¶</a></dt>
+<dd><p>Tries to create csv logger object</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="main.Astro_Pi.show_country">
+<code class="sig-name descname">show_country</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#main.Astro_Pi.show_country" title="Permalink to this definition">¶</a></dt>
+<dd><p>Gets the country that is below ISS
+&#64;return: dict</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="main.Astro_Pi.show_country_countinously">
+<code class="sig-name descname">show_country_countinously</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#main.Astro_Pi.show_country_countinously" title="Permalink to this definition">¶</a></dt>
+<dd><p>Updates the country flags on the SenseHat LED Matrix (every 5s)</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="main.Astro_Pi.write_data_continuously">
+<code class="sig-name descname">write_data_continuously</code><span class="sig-paren">(</span><em class="sig-param">files</em><span class="sig-paren">)</span><a class="headerlink" href="#main.Astro_Pi.write_data_continuously" title="Permalink to this definition">¶</a></dt>
+<dd><p>Writes humidity, temperature and pressure for the current time (every 60s)
+&#64;return: None</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="main.Astro_Pi.write_data_csv">
+<code class="sig-name descname">write_data_csv</code><span class="sig-paren">(</span><em class="sig-param">file</em><span class="sig-paren">)</span><a class="headerlink" href="#main.Astro_Pi.write_data_csv" title="Permalink to this definition">¶</a></dt>
+<dd><p>Writes current data to the csv file</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="main.Astro_Pi.write_force_csv">
+<code class="sig-name descname">write_force_csv</code><span class="sig-paren">(</span><em class="sig-param">file</em><span class="sig-paren">)</span><a class="headerlink" href="#main.Astro_Pi.write_force_csv" title="Permalink to this definition">¶</a></dt>
+<dd><p>Writes the force and speed data to the designated csv file</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">AstroPi</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">AstroPi docs</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="index.html" title="previous chapter">Welcome to AstroPi’s documentation!</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, Raducu Alexandru Mircea, Mocanu Alexandru, Negrea Mihail Daniel, Stancu Vlad, Ioana Stoica.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.3.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/code.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
