@@ -152,3 +152,4 @@ Writes the force and speed data to the designated csv file
 </div>
 
 </div>
+<div class="footer">©2020 Authors: Raducu Alexandru Mircea, Mocanu Alexandru, Negrea Mihail Daniel, Stancu Vlad, Ioana Stoica.</div>
