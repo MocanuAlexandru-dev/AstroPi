@@ -9,13 +9,13 @@
 
 <div class="section" id="astropi-docs">
 
-# AstroPi docs[¶](#astropi-docs "Permalink to this headline")
+# AstroPi docs(#astropi-docs "Permalink to this headline")
 
 <span class="target" id="module-main"></span>
 
 <dl class="class">
 
-<dt id="main.Astro_Pi">_class_ `main.``Astro_Pi`<span class="sig-paren">(</span>_running_time_<span class="sig-paren">)</span>[¶](#main.Astro_Pi "Permalink to this definition")</dt>
+<dt id="main.Astro_Pi">_class_ `main.``Astro_Pi`<span class="sig-paren">(</span>_running_time_<span class="sig-paren">)</span>(#main.Astro_Pi "Permalink to this definition")</dt>
 
 <dd>
 
@@ -23,7 +23,7 @@ Class for every function used in experiment (a way to order the code)
 
 <dl class="method">
 
-<dt id="main.Astro_Pi.calculate_force">`calculate_force`<span class="sig-paren">(</span><span class="sig-paren">)</span>[¶](#main.Astro_Pi.calculate_force "Permalink to this definition")</dt>
+<dt id="main.Astro_Pi.calculate_force">`calculate_force`<span class="sig-paren">(</span><span class="sig-paren">)</span>(#main.Astro_Pi.calculate_force "Permalink to this definition")</dt>
 
 <dd>
 
@@ -35,7 +35,7 @@ Calculating force and speed for the ISS @return: dict
 
 <dl class="method">
 
-<dt id="main.Astro_Pi.check_sleep">`check_sleep`<span class="sig-paren">(</span>_timedelta_seconds_<span class="sig-paren">)</span>[¶](#main.Astro_Pi.check_sleep "Permalink to this definition")</dt>
+<dt id="main.Astro_Pi.check_sleep">`check_sleep`<span class="sig-paren">(</span>_timedelta_seconds_<span class="sig-paren">)</span>(#main.Astro_Pi.check_sleep "Permalink to this definition")</dt>
 
 <dd>
 
@@ -47,7 +47,7 @@ Checks if can sleep or if the current_time + sleep_time exceeds project time @pa
 
 <dl class="method">
 
-<dt id="main.Astro_Pi.check_time">`check_time`<span class="sig-paren">(</span><span class="sig-paren">)</span>[¶](#main.Astro_Pi.check_time "Permalink to this definition")</dt>
+<dt id="main.Astro_Pi.check_time">`check_time`<span class="sig-paren">(</span><span class="sig-paren">)</span>(#main.Astro_Pi.check_time "Permalink to this definition")</dt>
 
 <dd>
 
