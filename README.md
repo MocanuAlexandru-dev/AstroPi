@@ -9,7 +9,7 @@
 
 <div class="section" id="astropi-docs">
 
-# AstroPi docs(#astropi-docs "Permalink to this headline")
+# AstroPi docs(#astropi-docs)
 
 <span class="target" id="module-main"></span>
 
